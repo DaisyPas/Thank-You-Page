@@ -1,0 +1,40 @@
+h1, h2, p {
+    text-align: center;
+}
+
+body {
+    
+    background-image: url(/Tea-shop/tea-book.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    }
+
+div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teaMenu {
+    background-color: rgba(228, 202, 168, 0.406);
+    
+}
+
+.Menu p {
+    display: inline-block
+}
+
+.tea, .collection{
+    width: 75%;
+    text-align: left;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+div:hover {
+    background-color: aqua;
+}
