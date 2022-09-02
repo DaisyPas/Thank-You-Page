@@ -13,6 +13,12 @@ h2 {
     font-style:italic;
 }
 
+hr { 
+    box-shadow: 0 4px 17px 2px rgba(0, 0, 0, 0.75); /* box- shadow: horizontal offset, vertical offset, blur, spread, color */
+    -webkit-box-shadow: 0 4px 17px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 4px 17px 2px rgba(0, 0, 0, 0.75);
+}
+
 body {
     
     background-image: url(/Tea-shop/tea-book.jpg);
